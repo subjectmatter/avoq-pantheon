@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80cb1d2efeea767aea7db3c3e7e654ac",
+    "content-hash": "84af75f6050fee2f781f355b374ede95",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -61,6 +61,41 @@
                 "source": "https://github.com/asm89/stack-cors/tree/v2.2.0"
             },
             "time": "2023-11-14T13:51:46+00:00"
+        },
+        {
+            "name": "avoq/avoq-drupal-theme",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/subjectmatter/avoqtheme.git",
+                "reference": "9fd840ff3b922e4c592f1dfc26badf56eab1091f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/subjectmatter/avoqtheme/zipball/9fd840ff3b922e4c592f1dfc26badf56eab1091f",
+                "reference": "9fd840ff3b922e4c592f1dfc26badf56eab1091f",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/bootstrap5": "^3.0"
+            },
+            "type": "drupal-custom-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Alan Yurisevic",
+                    "email": "admin@teamavoq.com"
+                }
+            ],
+            "description": "Custom theme for Avoq",
+            "support": {
+                "issues": "https://github.com/subjectmatter/avoqtheme/issues",
+                "source": "https://github.com/subjectmatter/avoqtheme/tree/0.0.1"
+            },
+            "time": "2024-04-01T13:38:14+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
